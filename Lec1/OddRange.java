@@ -3,16 +3,13 @@ public class OddRange {
     {
         if (highVal < lowVal)
         {
-            return;
+            System.out.print("Wrong Input");
         }
-        if(highVal % 2 == 1 )
-            Odd(lowVal, highVal - 2);
-        else
-            Odd(lowVal, highVal - 1);
-        if (highVal % 2 == 1)
-        {
-            System.out.print(highVal + " ");
-        }
+        for(int i=lowVal; i<=highVal; i++){ 
+            int r = i%2; 
+            if(r==1) 
+                System.out.print(i + " ");
+            }
     }
     public static void main(String[] args)
     {
