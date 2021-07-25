@@ -13,7 +13,8 @@ public class EvenOdd {
            }
            else
               odd++;	
-       }                 
+       }  
+       System.out.println();                
        System.out.print(odd + " Odd Numbers ");
        System.out.println(); 
        System.out.print(even + " Even Numbers ");
